@@ -1,3 +1,7 @@
+#connect to Server
+ssh -i key_name.pem ubuntu@ipadd(3.22.235.155)
+#Update instance 
+sudo apt-get update 
 # Install Java
 sudo apt-get update
 sudo apt install default-jdk -y
